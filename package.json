@@ -1,0 +1,24 @@
+{
+  "name": "session-17-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "npx tailwindcss -i ./public/tailwind/tailwind.css -o ./public/css/main.css --watch",
+    "typescript": "npx tsc ./public/typescript/main.ts --outDir ./public/js --watch",
+    "server": "npx json-server db.json --watch "
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "json-server": "^1.0.0-beta.2",
+    "swiper": "^11.1.11"
+  }
+}

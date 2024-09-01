@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/custom.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="root">
+      <!--make menu-->
+      <div class="menu w-[100%] h-[40px] bg-[#2b2b2b]">
+        <nav class="w-[100%] h-[100%] flex justify-center gap-x-1"></nav>
+      </div>
+      <!--end make menu-->
+      <!--make slider-->
+      <div class="slider">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!--end make slider-->
+      <!--make products-->
+        <div class="products flex flex-wrap gap-4 justify-between p-[30px] box-border">
+         
+        </div>
+      <!--end make products-->
+    </div>
+
+    <script src="./public/swiper/swiper-bundle.min.js"></script>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script type="module" src="./public/js/main.js"></script>
+  </body>
+</html>
